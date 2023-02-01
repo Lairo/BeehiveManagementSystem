@@ -24,5 +24,18 @@ namespace BeehiveManagementSystem
         {
             InitializeComponent();
         }
+        private Queen queen = new Queen();
+
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+       
     }
 }
