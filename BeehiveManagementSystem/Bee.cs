@@ -8,10 +8,14 @@ namespace BeehiveManagementSystem
 {
     internal class Bee
     {
-        string job;
-        public string Job { get; private set; }
-
         public virtual float CostPerShift { get; }
+        public string Job { get; private set; }
+       
+
+        public Bee(string job)
+        {
+            Job = job;
+        }
 
         static bool WorkTheNextShift()
         {
