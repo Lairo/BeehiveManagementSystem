@@ -15,5 +15,7 @@ namespace BeehiveManagementSystem
             base.DoJob();
         }
 
+        public HoneyManufacturer() : base("HoneyManufacturer") { }
+
     }
 }

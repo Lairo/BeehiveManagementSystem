@@ -29,7 +29,7 @@ namespace BeehiveManagementSystem
 
         }
 
-        static bool ConsumeHoney(float amount)
+        public static bool ConsumeHoney(float amount)
         {
             if (amount > honey)
             {
@@ -40,7 +40,7 @@ namespace BeehiveManagementSystem
             return false;
         }
 
-        static void CollectNectar(float amount)
+        public static void CollectNectar(float amount)
         {
             if (amount > 0)
             {

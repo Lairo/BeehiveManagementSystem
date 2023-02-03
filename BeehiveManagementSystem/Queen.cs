@@ -38,6 +38,6 @@ namespace BeehiveManagementSystem
         {
             base.DoJob();
         }
-
+        public Queen() : base("Queen") { }
     }
 }

@@ -15,5 +15,6 @@ namespace BeehiveManagementSystem
             base.DoJob();
         }
 
+        public NectarCollector() : base("Nectar Collector"){ }
     }
 }
