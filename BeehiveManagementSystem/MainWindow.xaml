@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BeehiveManagementSystem"
         mc:Ignorable="d"
-        Title="Beehive Management System" Height="325" Width="625">
+        Title="Beehive Management System" Height="450" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
